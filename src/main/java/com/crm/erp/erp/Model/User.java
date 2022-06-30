@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
-@Document(collection = "user")
+@Document(collection = "User")
 @Component
 public class User {
 

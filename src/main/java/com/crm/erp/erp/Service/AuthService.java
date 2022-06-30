@@ -49,9 +49,7 @@ public class AuthService {
         {
 
             String key = UUID.randomUUID().toString();
-
             User userObj = new User();
-
             userObj.setApiKey(key);
             userObj.setEmailAddress(user.get("emailAddress"));
             userObj.setName(user.get("name"));
